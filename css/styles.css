@@ -1,0 +1,45 @@
+.general-info{
+display: flex;
+justify-content: center;
+}
+
+.cv_photo{
+    border-radius: 50%;
+}
+
+button{
+    background-color: antiquewhite;
+    color: brown;
+    border: none;
+    border-style: dotted;
+    border-color: red;
+    border-radius: 40%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button:hover{
+    transform: scale(1.1);
+    margin-right: 20px; 
+    border-style: none;
+    transition: all 2s;
+    background-color: rgb(117, 170, 39);
+    color: rgb(67, 13, 122);
+    cursor: pointer;
+}
+
+hr{
+    width: 40px;
+    border-top: 5px dotted;
+    opacity: 0.5;
+}
+
+.all-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
